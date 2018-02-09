@@ -1,6 +1,4 @@
-<div class="container">
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,11 +9,46 @@
             <i class="fa fa-home"></i> Home
           </a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a routerLink="/cats" class="nav-link" routerLinkActive="active">
             <i class="fa fa-list"></i> Cats
           </a>
-        </li>
+        </li> -->
+        <li class="nav-item">
+            <a routerLink="/business" class="nav-link" routerLinkActive="active">
+              <i class="fa fa-list"></i> Business
+            </a>
+          </li>
+          <li class="nav-item">
+              <a routerLink="/entertainment" class="nav-link" routerLinkActive="active">
+                <i class="fa fa-list"></i> Entertainment
+              </a>
+            </li>
+            <li class="nav-item">
+                <a routerLink="/health" class="nav-link" routerLinkActive="active">
+                  <i class="fa fa-list"></i> Health
+                </a>
+              </li>
+        <li class="nav-item">
+            <a routerLink="/science" class="nav-link" routerLinkActive="active">
+              <i class="fa fa-list"></i> Science
+            </a>
+          </li>
+          <li class="nav-item">
+              <a routerLink="/sports" class="nav-link" routerLinkActive="active">
+                <i class="fa fa-list"></i> Sports
+              </a>
+            </li>
+        <li class="nav-item">
+            <a routerLink="/technology" class="nav-link" routerLinkActive="active">
+              <i class="fa fa-list"></i> Technology
+            </a>
+          </li>
+          
+          
+        
+          
+        
         <li class="nav-item">
           <a routerLink="/login" class="nav-link" routerLinkActive="active" *ngIf="!auth.loggedIn">
             <i class="fa fa-sign-in"></i> Login
@@ -44,7 +77,6 @@
       </ul>
     </div>
   </nav>
-
+<div class="container">
   <router-outlet></router-outlet>
-
 </div>

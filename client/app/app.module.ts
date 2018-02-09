@@ -16,6 +16,13 @@ import { LogoutComponent } from './logout/logout.component';
 import { AccountComponent } from './account/account.component';
 import { AdminComponent } from './admin/admin.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { SportsComponent } from './sports/sports.component';
+import { BusinessComponent } from './business/business.component';
+import { ArticleService } from './services/article.service';
+import { EntertainmentComponent } from './entertainment/entertainment.component';
+import { HealthComponent } from './health/health.component';
+import { ScienceComponent } from './science/science.component';
+import { TechnologyComponent } from './technology/technology.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +34,13 @@ import { NotFoundComponent } from './not-found/not-found.component';
     LogoutComponent,
     AccountComponent,
     AdminComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    SportsComponent,
+    BusinessComponent,
+    EntertainmentComponent,
+    HealthComponent,
+    ScienceComponent,
+    TechnologyComponent
   ],
   imports: [
     RoutingModule,
@@ -38,7 +51,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     AuthGuardLogin,
     AuthGuardAdmin,
     CatService,
-    UserService
+    UserService,
+    ArticleService
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]

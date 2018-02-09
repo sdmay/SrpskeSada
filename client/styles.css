@@ -1,10 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  margin-top: 15px;
+  /* margin-top: 15px; */
   margin-bottom: 10px;
 }
 
 .input-group {
   margin-bottom: 15px;
+}
+
+.bg-gradient {
+  background: #c13232; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #c13232 0%, #2989d8 20%, #aa1b1b 40%, #2989d8 61%, #2989d8 61%, #c13232 73%, #1e5799 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #c13232 0%,#2989d8 20%,#aa1b1b 40%,#2989d8 61%,#2989d8 61%,#c13232 73%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #c13232 0%,#2989d8 20%,#aa1b1b 40%,#2989d8 61%,#2989d8 61%,#c13232 73%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c13232', endColorstr='#1e5799',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
